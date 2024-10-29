@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-29T19:02:21 GMT" name="MyTestSuite" finished-at="2024-10-29T19:02:33 GMT" duration-ms="11274">
+    <groups>
+    </groups>
+    <test started-at="2024-10-29T19:02:21 GMT" name="Passenger-1" finished-at="2024-10-29T19:02:30 GMT" duration-ms="8910">
+      <class name="com.dockerpomvims.testcases.FlightReservation">
+        <test-method is-config="true" signature="BeforeTest(java.lang.String,java.lang.String)[pri:0, instance:com.dockerpomvims.testcases.FlightReservation@2638011]" started-at="2024-10-29T19:02:21 GMT" name="BeforeTest" finished-at="2024-10-29T19:02:21 GMT" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$2338 USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method is-config="true" signature="SetDriver(org.testng.ITestContext)[pri:0, instance:com.dockerpomvims.testcases.FlightReservation@2638011]" started-at="2024-10-29T19:02:21 GMT" name="SetDriver" finished-at="2024-10-29T19:02:23 GMT" duration-ms="2050" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@306e95ec]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetDriver -->
+        <test-method signature="Registration()[pri:0, instance:com.dockerpomvims.testcases.FlightReservation@2638011]" started-at="2024-10-29T19:02:23 GMT" name="Registration" finished-at="2024-10-29T19:02:30 GMT" duration-ms="6336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method is-config="true" signature="AfterTest()[pri:0, instance:com.dockerpomvims.testcases.FlightReservation@2638011]" started-at="2024-10-29T19:02:30 GMT" name="AfterTest" finished-at="2024-10-29T19:02:30 GMT" duration-ms="507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+      </class> <!-- com.dockerpomvims.testcases.FlightReservation -->
+    </test> <!-- Passenger-1 -->
+    <test started-at="2024-10-29T19:02:21 GMT" name="Passenger-2" finished-at="2024-10-29T19:02:33 GMT" duration-ms="11274">
+      <class name="com.dockerpomvims.testcases.FlightReservation">
+        <test-method is-config="true" signature="Beforesuite()[pri:0, instance:com.dockerpomvims.testcases.FlightReservation@69fb6037]" started-at="2024-10-29T19:02:21 GMT" name="Beforesuite" finished-at="2024-10-29T19:02:21 GMT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforesuite -->
+        <test-method is-config="true" signature="BeforeTest(java.lang.String,java.lang.String)[pri:0, instance:com.dockerpomvims.testcases.FlightReservation@69fb6037]" started-at="2024-10-29T19:02:21 GMT" name="BeforeTest" finished-at="2024-10-29T19:02:21 GMT" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$1753 USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method is-config="true" signature="SetDriver(org.testng.ITestContext)[pri:0, instance:com.dockerpomvims.testcases.FlightReservation@69fb6037]" started-at="2024-10-29T19:02:21 GMT" name="SetDriver" finished-at="2024-10-29T19:02:23 GMT" duration-ms="2050" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@52af26ee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetDriver -->
+        <test-method signature="Registration()[pri:0, instance:com.dockerpomvims.testcases.FlightReservation@69fb6037]" started-at="2024-10-29T19:02:23 GMT" name="Registration" finished-at="2024-10-29T19:02:32 GMT" duration-ms="8820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method is-config="true" signature="AfterTest()[pri:0, instance:com.dockerpomvims.testcases.FlightReservation@69fb6037]" started-at="2024-10-29T19:02:32 GMT" name="AfterTest" finished-at="2024-10-29T19:02:33 GMT" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+      </class> <!-- com.dockerpomvims.testcases.FlightReservation -->
+    </test> <!-- Passenger-2 -->
+  </suite> <!-- MyTestSuite -->
+</testng-results>
