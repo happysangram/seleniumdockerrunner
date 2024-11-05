@@ -3,7 +3,7 @@ services:
   vendor-portal:
     image: sangram1989/selenium-docker
     environment:
-    - BROWSER=chrome
+    - BROWSER
     - HUB_HOST=hub    
     - THREAD_COUNT=3
     - TEST_SUITE=testng.xml
@@ -12,9 +12,9 @@ services:
   flight-reservation:
     image: sangram1989/selenium-docker
     environment:
-    - BROWSER=firefox
+    - BROWSER
     - HUB_HOST=hub    
     - THREAD_COUNT=4
     - TEST_SUITE=testng_vender.xml
     volumes:
-    - ./output/Vendor-portal:/home/selenium-docker/test-output
+    - ./output/flight-reservation:/home/selenium-docker/test-output
