@@ -15,6 +15,6 @@ services:
     - BROWSER=firefox
     - HUB_HOST=hub    
     - THREAD_COUNT=4
-    - TEST_SUITE=testng.xml
+    - TEST_SUITE=testng_vender.xml
     volumes:
     - ./output/Vendor-portal:/home/selenium-docker/test-output
